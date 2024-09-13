@@ -55,6 +55,45 @@ Aplicação full-stack para gerenciamento de metas. O back-end é desenvolvido e
 
 <br />
 
+## Se Preparando
+
+Esse é um exemplo de instruções de como você pode configurar o projeto localmente.
+Para conseguir uma cópia local e iniciar o projeto, siga essas etapas 👇.
+
+
+
+### SERVER
+no arquivo .env.example vai renomear para apenas .env e colocar a url do seu db PostgreSQL para que o projeto funcione.
+ ```sh
+   DATABASE_URL=
+   ```
+
+
+ para instalar as dependencias na pasta Server 
+   ```sh
+   npm install
+   ```
+ para rodar as migrations  
+   ```sh
+   drizzle migrate
+   ```
+ para rodar o server 
+   ```sh
+   npm run dev
+```
+<br />
+
+### FRONT
+
+para instalar as dependencias na pasta front 
+   ```sh
+   npm install
+   ```
+ para rodar o front (certifique-se que o server esteja rodando antes de executar o front)
+   ```sh
+   npm run dev
+```
+
 ## :memo: License
 
 Este projeto esta sob a [MIT license](LICENSE) para mais detalhes.
