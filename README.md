@@ -81,6 +81,10 @@ no arquivo .env.example vai renomear para apenas .env e colocar a url do seu db 
    ```sh
    npm run dev
 ```
+ para preencher o db com algumas metas fictícias
+   ```sh
+   npm run seed
+```
 <br />
 
 ### FRONT
